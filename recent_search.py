@@ -10,7 +10,7 @@ search_url = "https://api.twitter.com/2/tweets/search/recent"
 
 # Optional params: start_time,end_time,since_id,until_id,max_results,next_token,
 # expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
-query_params = {'query': '(from:shibtoken -is:retweet) OR #twitterdev','tweet.fields': 'author_id'}
+query_params = {'query': '(from:shib -is:retweet) OR #twitterdev',"start_time": "2022-07-04T07:20:50.52Z" , "end_time":"2022-07-09T07:20:50.52Z",'tweet.fields': 'author_id'}
 
 
 def bearer_oauth(r):
